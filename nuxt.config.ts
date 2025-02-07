@@ -6,6 +6,10 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  nitro: {
+    srcDir: '/app',
+    static: true,
+  },
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,
