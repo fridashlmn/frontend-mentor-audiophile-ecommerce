@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   nitro: {
     srcDir: '/app',
     static: true,
+    preset: 'netlify-static',
   },
   devtools: { enabled: true },
   future: {
